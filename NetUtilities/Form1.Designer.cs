@@ -30,46 +30,19 @@
         {
             this.components = new System.ComponentModel.Container();
             this.kryptonPalette1 = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
-            this.leftPanel = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.containerPanel = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.ipScanButton = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            ((System.ComponentModel.ISupportInitialize)(this.leftPanel)).BeginInit();
-            this.leftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.containerPanel)).BeginInit();
             this.SuspendLayout();
-            // 
-            // leftPanel
-            // 
-            this.leftPanel.Controls.Add(this.ipScanButton);
-            this.leftPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.leftPanel.Location = new System.Drawing.Point(0, 0);
-            this.leftPanel.Name = "leftPanel";
-            this.leftPanel.Size = new System.Drawing.Size(100, 461);
-            this.leftPanel.StateCommon.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.leftPanel.StateCommon.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.leftPanel.TabIndex = 0;
             // 
             // containerPanel
             // 
             this.containerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.containerPanel.Location = new System.Drawing.Point(100, 0);
+            this.containerPanel.Location = new System.Drawing.Point(0, 0);
             this.containerPanel.Name = "containerPanel";
-            this.containerPanel.Size = new System.Drawing.Size(734, 461);
+            this.containerPanel.Size = new System.Drawing.Size(834, 461);
             this.containerPanel.StateCommon.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.containerPanel.StateCommon.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.containerPanel.TabIndex = 1;
-            // 
-            // ipScanButton
-            // 
-            this.ipScanButton.Location = new System.Drawing.Point(0, 0);
-            this.ipScanButton.Name = "ipScanButton";
-            this.ipScanButton.Size = new System.Drawing.Size(100, 100);
-            this.ipScanButton.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.ipScanButton.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.ipScanButton.TabIndex = 0;
-            this.ipScanButton.Values.Image = global::NetUtilities.Properties.Resources.network_image;
-            this.ipScanButton.Values.Text = "IP Scanner";
-            this.ipScanButton.Click += new System.EventHandler(this.ipScanButton_Click);
             // 
             // Form1
             // 
@@ -78,7 +51,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.ClientSize = new System.Drawing.Size(834, 461);
             this.Controls.Add(this.containerPanel);
-            this.Controls.Add(this.leftPanel);
             this.Name = "Form1";
             this.Palette = this.kryptonPalette1;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
@@ -96,8 +68,7 @@
             this.StateCommon.Header.ButtonEdgeInset = 10;
             this.StateCommon.Header.Content.Padding = new System.Windows.Forms.Padding(10, -1, -1, -1);
             this.Text = "Net Utilities";
-            ((System.ComponentModel.ISupportInitialize)(this.leftPanel)).EndInit();
-            this.leftPanel.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.containerPanel)).EndInit();
             this.ResumeLayout(false);
 
@@ -106,9 +77,7 @@
         #endregion
 
         private ComponentFactory.Krypton.Toolkit.KryptonPalette kryptonPalette1;
-        private ComponentFactory.Krypton.Toolkit.KryptonPanel leftPanel;
         private ComponentFactory.Krypton.Toolkit.KryptonPanel containerPanel;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton ipScanButton;
     }
 }
 

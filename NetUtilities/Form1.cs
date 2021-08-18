@@ -18,9 +18,13 @@ namespace NetUtilities
             InitializeComponent();
         }
 
-        private void ipScanButton_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Dock = DockStyle.Fill;
+            containerPanel.Controls.Add(mainMenu);
         }
+
+        
     }
 }
