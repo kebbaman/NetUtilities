@@ -63,6 +63,16 @@ namespace NetUtilities.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_back_to_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-back-to-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_radar_60 {
             get {
                 object obj = ResourceManager.GetObject("icons8-radar-60", resourceCulture);
@@ -73,9 +83,19 @@ namespace NetUtilities.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_radar_601 {
+        internal static System.Drawing.Bitmap icons8_search_property_12 {
             get {
-                object obj = ResourceManager.GetObject("icons8-radar-601", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-search-property-12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_property_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-search-property-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,26 +106,6 @@ namespace NetUtilities.Properties {
         internal static System.Drawing.Bitmap icons8_wall_socket_60 {
             get {
                 object obj = ResourceManager.GetObject("icons8-wall-socket-60", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_wall_socket_601 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-wall-socket-601", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap network_image {
-            get {
-                object obj = ResourceManager.GetObject("network_image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

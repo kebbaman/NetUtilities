@@ -126,5 +126,14 @@
   <ItemGroup>
     <None Include="Resources\icons8-wall-socket-60.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-property-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-property-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-to-32.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
