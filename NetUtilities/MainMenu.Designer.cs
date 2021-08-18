@@ -52,7 +52,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::NetUtilities.Properties.Resources.icons8_wall_socket_60;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(169, 0);
+            this.button1.Location = new System.Drawing.Point(259, 99);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 99);
             this.button1.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.ipScanButton.ForeColor = System.Drawing.Color.White;
             this.ipScanButton.Image = global::NetUtilities.Properties.Resources.icons8_radar_60;
             this.ipScanButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ipScanButton.Location = new System.Drawing.Point(3, 0);
+            this.ipScanButton.Location = new System.Drawing.Point(93, 99);
             this.ipScanButton.Name = "ipScanButton";
             this.ipScanButton.Size = new System.Drawing.Size(160, 99);
             this.ipScanButton.TabIndex = 0;
